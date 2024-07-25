@@ -1,0 +1,88 @@
+body {
+  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/135/506/original/minimal-water-_reeds-bkgrnd.jpg?1721926346);
+  background-size: cover;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.container {
+  max-width: 600px;
+  margin-top: 80px;
+  margin-left: 100px;
+}
+
+header {
+  margin-bottom: 45px;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 800;
+  text-align: end;
+  color: #272044;
+  letter-spacing: 4px;
+}
+
+h2 {
+  text-align: end;
+  font-size: 30px;
+  color: #272044;
+  letter-spacing: 4px;
+}
+
+form {
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.prompt {
+  padding: 16px;
+  width: 80%;
+  border-radius: 30px;
+  border: 1px solid rgba(39, 33, 66, 0.5);
+  font-size: 16px;
+  line-height: 20px;
+  color: #272044;
+}
+
+.submit-button {
+  margin-left: 10px;
+  width: 150px;
+  font-size: 16px;
+  padding: 14px 24px;
+  border: none;
+  border-radius: 30px;
+  color: #272044;
+}
+
+.poem {
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 20px;
+  font-size: 18px;
+  line-height: 2;
+  color: #272044;
+  border-left: 2px solid #272044;
+}
+
+footer {
+  margin-top: 45px;
+  text-align: center;
+  color: #272044;
+}
+
+a {
+  text-decoration: none;
+  color: #4a3da1;
+}
