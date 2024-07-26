@@ -15,18 +15,21 @@
         <h2>Welcome!</h2>
       </header>
       <main>
-        <form action="" id="poem-instruction-form">
-          <input
-            type="text"
-            placeholder="Please enter a topic for the poem"
-            required
-            autofocus
-            autocomplete="off"
-            class="prompt"
-            id="user-instructions"
-          />
-          <input type="submit" class="submit-button" />
-        </form>
+        <div class="form-wrapper">
+          <form action="" id="poem-instruction-form">
+            <input
+              type="text"
+              placeholder="Please enter a topic for your haiku"
+              required
+              autofocus
+              autocomplete="off"
+              class="prompt"
+              id="user-instructions"
+            />
+            <input type="submit" class="submit-button" />
+          </form>
+          <div class="hint">e.g. summer, crickets, cheese, friends, skiing</div>
+        </div>
         <div class="poem" id="poem">
           A world of dew,<br />
 
